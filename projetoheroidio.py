@@ -1,10 +1,6 @@
 nome = input ("Digite o nome do herói: ")
 xp = int(input("Digite o XP do herói: "))
 
-while (xp < 1000 ):
-        print ("XP insuficiente para classificação, continue jogando")
-        xp = int(input("Digite o XP do herói: "))
-
 if (xp <= 1000):
     nivel = "Ferro"
 elif (xp >= 1001 and xp <= 2000):
